@@ -1,0 +1,22 @@
+{
+  "name": "Ois night",
+  "description": "Nightmode for õis2",
+  "version": "1.0",
+  "permissions": ["tabs", "*://ois2.tlu.ee/*"],
+  "content_scripts":[ {
+    "run_at" : "document_idle",
+    "matches": ["*://ois2.tlu.ee/*"],
+    "css": ["style.css"]
+  } ],
+  "browser_action": {
+    "default_title": "Nightmode",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+        "16": "icon.png",
+        "32": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+  },
+  "manifest_version": 2
+}
