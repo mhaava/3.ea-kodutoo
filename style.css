@@ -1,5 +1,35 @@
 body, div, a, span, .valge {
-    background-color: #333333 !important;
+  background-color: #333333 !important;
 	color: white !important;
 	border-color: black !important;
+}
+#u5_normal a {
+  color:red !important;
+}
+#u5_normal a:hover {
+  color:#8b0000 !important;
+}
+#teade2 a span:hover {
+  color: darkgray !important;
+}
+#u1768 a:hover {
+  color: darkgray !important;
+}
+#a6 span:hover, #a16 span:hover, #a21 span:hover, #a34 span:hover {
+  color: #8b0000 !important;
+}
+#cssmenu .odd a span:hover, #cssmenu .even a span:hover{
+  color: darkgray !important;
+}
+#u1766 span {
+  color: red !important;
+}
+#op_valmis div {
+  background-color: #333333 !important;
+}
+#esivorm21 a:hover {
+  color: gray !important;
+}
+#cssmenu_e span:hover{
+    color: #8b0000 !important;
 }
