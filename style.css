@@ -33,3 +33,9 @@ body, div, a, span, .valge {
 #cssmenu_e span:hover{
     color: #8b0000 !important;
 }
+.menu06 span:hover {
+	color: #8b0000 !important;
+}
+input.btn:hover {
+	background-color: #8b0000 !important;
+}
